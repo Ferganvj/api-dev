@@ -1,3 +1,11 @@
+# Showcase API
+
+## About
+
+A FastAPI application demonstrating production-style API development practices in a compact, self-contained project. It exposes a text analysis endpoint (word counts and sentiment scoring) behind simulated OAuth2 bearer-token and API-key authentication, along with a health check endpoint that reports live system metrics such as in-flight request counts.
+
+The project showcases RESTful endpoint design, Pydantic request/response validation, custom middleware and error handling, comprehensive OpenAPI documentation, and a pytest test suite — all packaged with Docker for easy deployment.
+
 # How to use API
 
 1. Run the API:
