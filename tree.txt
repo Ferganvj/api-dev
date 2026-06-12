@@ -1,0 +1,10 @@
+distributable_api/
+├── app/
+│ ├── init.py
+│ ├── main.py           # Core API logic
+│ ├── schemas.py        # Pydantic data models
+│ └── dependencies.py   # Auth & utilities
+├── tests/              # Test scripts
+├── Dockerfile          # Containerization
+├── requirements.txt    # Dependencies
+└── README.md           # Usage/docs
